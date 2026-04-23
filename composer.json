@@ -1,5 +1,5 @@
 {
-    "name": "symfony/var-dumper",
+    "name": "iwillwin/var-dumper",
     "type": "library",
     "description": "Provides mechanisms for walking through any arbitrary PHP variable",
     "keywords": ["dump", "debug"],
@@ -37,7 +37,6 @@
         "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
     },
     "autoload": {
-        "files": [ "Resources/functions/dump.php" ],
         "psr-4": { "Symfony\\Component\\VarDumper\\": "" },
         "exclude-from-classmap": [
             "/Tests/"
